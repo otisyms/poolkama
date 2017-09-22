@@ -1,0 +1,25 @@
+{
+  "name": "console2",
+  "version": "1.0.3",
+  "description": "A better REST console for WordPress.com.",
+  "homepage": "https://developer.wordpress.com/docs/api/console/",
+  "main": "lib/index.js",
+  "scripts": {
+    "start": "node server.js",
+    "build": "gulp",
+    "test": "node server.js"
+  },
+  "author": {
+    "name": "Beau Collins",
+    "email": "beaucollins@gmail.com"
+  },
+  "license": "MIT",
+  "engines": { "node" : ">=6.0.0" },  
+  "dependencies": {
+    "express": "latest"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/Automattic/rest-api-console2.git"
+  }
+}
